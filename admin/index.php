@@ -43,6 +43,7 @@ if(isset($_POST['login']))
 
             <div class="col-md-6">
                 <h2 class="font-bold">Late Night Stuff @SMVDU | Admin Login</h2>
+                <?php echo "you can use id:- admin and password :- Admin@321 for try "; ?>
 
 
             </div>
@@ -50,6 +51,7 @@ if(isset($_POST['login']))
                 <div class="ibox-content">
                      <p style="font-size:16px; color:red" align="center"> <?php if($msg){
     echo $msg;
+
   }  ?> </p>
                     <form class="m-t" role="form" action="" method="post" name="login">
                         <div class="form-group">
@@ -60,7 +62,7 @@ if(isset($_POST['login']))
                         </div>
                         <button type="submit" class="btn btn-primary block full-width m-b" name="login">Login</button>
 
-                      
+
 
 
 

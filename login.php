@@ -67,11 +67,14 @@ if(isset($_POST['login']))
                            <div class="widget-body">
                               <p style="font-size:16px; color:red" align="center"> <?php if($msg){
     echo $msg;
+
   }  ?> </p>
                               <form action="" name="login" method="post">
                                  <div class="row">
                                     <div class="form-group col-sm-6">
                                        <label for="exampleInputEmail1">Registered Email or Contact Number</label>
+                                       <br>
+                                       <?php echo "you can use id:- testuser123@gmail.com and password :- User@321 for try "; ?>
                                        <input type="text" name="emailcont" id="email" class="form-control" placeholder="Registered Email or Contact Number"
                       required="true" >
                                     </div> </div>
