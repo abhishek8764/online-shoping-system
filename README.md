@@ -7,8 +7,8 @@ How to run the  Project
 4. Open PHPMyAdmin (http://localhost/phpmyadmin)
 5. Create a database with name fosdb
 6. Import fosdb.sql 
-7.Run the script http://localhost/fos (frontend)
-8. For admin panel http://localhost/fos/admin  (admin panel)
+7.Run the script http://localhost/online-shoping-system (frontend)
+8. For admin panel http://localhost/online-shoping-system/admin  (admin panel)
 Credential for admin panel :
 Username: admin
 Password: Admin@321
